@@ -1,0 +1,144 @@
+.navbar-bg-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #272727;
+}
+
+.navbar-mobile-navbar-card {
+  width: 90%;
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px 15px 15px;
+  margin: auto;
+}
+
+.navbar-website-mobile-logo {
+  width: 100px;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+.navbar-mobile-nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  color: #ffffff;
+  list-style-type: none;
+  padding: 0px 0px 0px;
+}
+
+.navbar-nav-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0px 0px 0px 20px;
+  cursor: pointer;
+}
+
+.navbar-link-item {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.navbar-logout-button {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+  .navbar-nav-icon {
+    height: 23px;
+    width: 23px;
+  }
+}
+
+.navbar-desktop-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  padding: 25x 13px 25px 13px;
+  margin: auto;
+}
+
+.navbar-desktop-nav-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+}
+
+.navbar-desktop-route-button-list {
+  list-style-type: none;
+  padding: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-desktop-card {
+    display: none;
+  }
+}
+
+.navbar-desktop-logout-button {
+  border: none;
+  background-color: #4f46e5;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px 10px 8px 10px;
+  width: 100px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-link-item {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-mobile-navbar-card {
+    display: none;
+  }
+  .navbar-bg-container {
+    border-bottom: 1px solid #64748b;
+  }
+  .navbar-website-desktop-logo {
+    width: 100px;
+  }
+  .navbar-desktop-card {
+    justify-content: space-between;
+  }
+  .navbar-link-item {
+    font-size: 18px;
+    margin: 0px 8px 0px 8px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .website-desktop-logo {
+    width: 130px;
+  }
+  .navbar-bg-container {
+    padding: 10px;
+  }
+  .navbar-desktop-card {
+    justify-content: space-between;
+  }
+}

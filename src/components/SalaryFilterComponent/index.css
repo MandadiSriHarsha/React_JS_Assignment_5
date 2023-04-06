@@ -1,0 +1,40 @@
+.salary-item-container {
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  padding: 7px;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.input-checkbox {
+  margin: 0px;
+  height: 20px;
+  width: 20px;
+}
+
+.input-label {
+  color: #ffffff;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-checkbox {
+    height: 23px;
+    width: 23px;
+  }
+  .input-label {
+    font-size: 18px;
+  }
+  .salary-item-container {
+    padding: 7px;
+    margin-bottom: 13px;
+  }
+}

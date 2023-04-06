@@ -1,0 +1,84 @@
+.loader-bg-container {
+  width: 90%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.user-profile-card {
+  width: 100%;
+  max-width: 400px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 35px;
+}
+
+* {
+  font-family: 'Roboto';
+}
+
+.profile-image {
+  height: 80px;
+  width: 80px;
+  margin: 13px 0px 13px 17px;
+}
+
+.profile-heading {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px 0px 10px 20px;
+  color: #4f46e5;
+}
+
+.profile-description {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px 0px 20px 20px;
+  color: #475569;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-image {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+.user-profile-failure-card {
+  width: 100%;
+  max-width: 400px;
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-failure-button {
+  color: #ffffff;
+  padding: 7px 12px 7px 12px;
+  font-weight: 500;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .profile-failure-button {
+    font-size: 20px;
+    width: 120px;
+  }
+  .user-profile-card {
+    width: 100%;
+  }
+}
